@@ -21,6 +21,13 @@ recipes.addShaped("primal_chest", <primalchests:primal_chest>,
   [<ore:logWood>,<immcraft:rock>,<ore:logWood>],
   [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]]);
 
+//Primal Chest Advanced
+recipes.remove(<primalchests:primal_chest_advanced>);
+recipes.addShaped("primal_chest_advanced", <primalchests:primal_chest_advanced>,
+ [[<ore:stickWood>,<ore:plankWood>,<ore:stickWood>],
+  [<ore:cobblestone>,<primalchests:primal_chest>,<ore:cobblestone>],
+  [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>]]);
+
 //Remove and Hide
 val removals = [
     <primal_tech:bone_pickaxe>,
@@ -35,6 +42,11 @@ val removals = [
     <primal_tech:fibre_torch_lit>,
     <primal_tech:work_stump>,
     <primal_tech:work_stump_upgraded>,
+    <primal_tech:rock>,
+    <primal_tech:fluid_bladder>,
+    <primal_tech:wood_club>,
+    <primal_tech:bone_club>,
+    <primal_tech:stone_club>,
     <immcraft:chisel>,
     <immcraft:saw>,
     <immcraft:dummybook:*>,
