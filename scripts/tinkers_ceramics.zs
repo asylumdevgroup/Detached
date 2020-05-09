@@ -2,6 +2,7 @@
 //By MCAdventureCity
 
 import mods.primaltech.ClayKiln;
+import mods.tconstruct.Alloy;
 
 //Porcelain Brick in Kiln
 mods.primaltech.ClayKiln.addRecipe(<ceramics:unfired_clay:5>, <ceramics:unfired_clay:4>, 200);
@@ -14,6 +15,18 @@ mods.primaltech.ClayKiln.addRecipe(<ceramics:faucet>, <ceramics:unfired_clay:6>,
 
 //Porcelain Tank
 recipes.remove(<tcomplement:porcelain_tank>);
+
+//Armor Station
+mods.jei.JEI.removeAndHide(<conarm:armorstation>);
+
+//Armor Forge
+recipes.remove(<conarm:armorforge>);
+mods.jei.JEI.hide(<conarm:armorforge>.withTag({textureBlock: {id: "enderio:block_alloy", Count: 1 as byte, Damage: 0 as short}}));
+recipes.addShaped("armor_forge", <conarm:armorforge>,
+ [[<immersiveengineering:stone_decoration>,<ore:blockFuelCoke>,<immersiveengineering:stone_decoration>],
+  [<ore:ingotKnightslime>,<tconstruct:cast>,<ore:ingotKnightslime>],
+  [<ore:blockInvar>,null,<ore:blockInvar>]]);
+mods.jei.JEI.addItem(<conarm:armorforge>);
 
 //Porcelain Heater
 recipes.remove(<tcomplement:porcelain_melter:8>);
@@ -55,3 +68,7 @@ recipes.addShaped("unfired_channel", <ceramics:unfired_clay:7>,
  [[<ceramics:unfired_clay:4>,null,<ceramics:unfired_clay:4>],
   [<ceramics:unfired_clay:4>,null,<ceramics:unfired_clay:4>],
   [<ceramics:unfired_clay:4>,<ceramics:unfired_clay:4>,<ceramics:unfired_clay:4>]]);
+
+//Knightslime Alloying Requires Silver
+mods.tconstruct.Alloy.removeRecipe(<liquid:knightslime>);
+mods.tconstruct.Alloy.addRecipe(<liquid:knightslime> * 72, [<liquid:silver> * 72, <liquid:purpleslime> * 125, <liquid:stone> * 144]);
