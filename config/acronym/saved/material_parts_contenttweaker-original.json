@@ -1,3 +1,8 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "zorrasteel_plate": 2,
+    "zorrasteel_rod": 3,
+    "ferramic_rod": 1,
+    "ferramic_plate": 0
+  }
 }
