@@ -14,6 +14,11 @@ recipes.addShaped("clay_kiln", <primal_tech:clay_kiln>,
 recipes.remove(<primal_tech:fire_sticks>.withTag({}));
 recipes.addShapeless("whittled_fire_stick", <primal_tech:fire_sticks>.withTag({}), [<ore:stickWood>, <flintmod:knife_flint>.transformDamage()]);
 
+//Stone Anvil
+recipes.remove(<primal_tech:stone_anvil>);
+recipes.addShaped("stone_anvil", <primal_tech:stone_anvil>, [[<tconstruct:seared_slab>], [<tconstruct:seared>]]);
+
+
 //Primal Chest
 recipes.remove(<primalchests:primal_chest>);
 recipes.addShaped("primal_chest", <primalchests:primal_chest>,
@@ -47,6 +52,8 @@ val removals = [
     <primal_tech:wood_club>,
     <primal_tech:bone_club>,
     <primal_tech:stone_club>,
+    <primal_tech:stone_grill>,
+    <primal_tech:wooden_basin>,
     <immcraft:chisel>,
     <immcraft:saw>,
     <immcraft:dummybook:*>,

@@ -1,7 +1,21 @@
 //prodigytech.zs
 //By MCAdventureCity
 
+import crafttweaker.item.IItemStack;
 import mods.artisanworktables.builder.RecipeBuilder;
+
+//To Hide
+mods.jei.JEI.hideCategory("ptgrinder");
+mods.jei.JEI.hideCategory("ptreassembler");
+mods.jei.JEI.hideCategory("ptrefinery");
+val removals = [
+    <prodigytech:rotary_grinder>,
+    <prodigytech:ore_refinery>,
+    <prodigytech:magnetic_reassembler>
+] as IItemStack[];
+for item in removals {
+  mods.jei.JEI.removeAndHide(item);
+}
 
 //Explosion Furnace
 recipes.remove(<prodigytech:explosion_furnace>);
@@ -16,3 +30,9 @@ RecipeBuilder.get("basic")
   .addOutput(<prodigytech:explosion_furnace>)
   .create();
 
+//Magmatic Aeroheater
+recipes.remove(<prodigytech:magmatic_aeroheater>);
+recipes.addShaped("magmatic_aeroheater", <prodigytech:magmatic_aeroheater>, 
+  [[<ore:plateFerramic>, <quark:blaze_lantern>, <ore:plateFerramic>],
+  [<ceramics:clay_hard:5>, <contenttweaker:ferramic_casing>, <ceramics:clay_hard:5>], 
+  [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
