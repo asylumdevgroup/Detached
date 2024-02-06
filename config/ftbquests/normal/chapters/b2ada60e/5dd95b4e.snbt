@@ -1,0 +1,16 @@
+{
+	title: "Finally a Vanilla Furnace!",
+	icon: "minecraft:furnace",
+	x: -8.0d,
+	y: -5.0d,
+	dependencies: [
+		"938bb73e"
+	],
+	tasks: [{
+		uid: "62be6d83",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}]
+}

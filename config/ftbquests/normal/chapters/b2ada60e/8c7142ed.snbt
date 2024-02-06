@@ -1,0 +1,24 @@
+{
+	title: "Clay Cast",
+	icon: {
+		id: "tconstruct:clay_cast",
+		tag: {
+			PartType: "tconstruct:pick_head"
+		}
+	},
+	x: -8.0d,
+	y: -2.0d,
+	dependencies: [
+		"a51d4bcf"
+	],
+	tasks: [{
+		uid: "358e6cd6",
+		type: "item",
+		items: [{
+			id: "tconstruct:clay_cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	}]
+}

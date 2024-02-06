@@ -1,0 +1,16 @@
+{
+	title: "Your First Storage!",
+	icon: "primalchests:primal_chest",
+	x: -10.0d,
+	y: -3.0d,
+	dependencies: [
+		"c6bfae81"
+	],
+	tasks: [{
+		uid: "2abd9b8d",
+		type: "item",
+		items: [{
+			item: "primalchests:primal_chest"
+		}]
+	}]
+}

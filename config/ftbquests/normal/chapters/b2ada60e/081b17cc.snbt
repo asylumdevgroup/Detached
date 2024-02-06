@@ -1,0 +1,32 @@
+{
+	title: "Tier 6: Osmium",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "osmium"
+		}
+	},
+	x: -7.0d,
+	y: -1.0d,
+	dependencies: [
+		"72d30a76"
+	],
+	tasks: [{
+		uid: "7425c47d",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock"
+		}],
+		count: 4L
+	},
+	{
+		uid: "b21f3892",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "osmium"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,83 @@
+{
+	title: "Tinkering Beginnings",
+	icon: "tconstruct:pattern",
+	x: -9.0d,
+	y: -2.0d,
+	text: [
+		"Your stone tools have served you well, but not for much longer... Let's see if there's something better."
+	],
+	dependencies: [
+		"c6bfae81"
+	],
+	tasks: [{
+		uid: "d5f059c0",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		count: 8L
+	},
+	{
+		uid: "cd64f299",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "49d5373d",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "d6582318",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	},
+	{
+		uid: "723916cd",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	},
+	{
+		uid: "0d1645bd",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "f8ac03da",
+		type: "item",
+		item: "tconstruct:pattern",
+		count: 4
+	},
+	{
+		uid: "0af76bb9",
+		type: "item",
+		item: "minecraft:flint",
+		count: 8
+	}]
+}

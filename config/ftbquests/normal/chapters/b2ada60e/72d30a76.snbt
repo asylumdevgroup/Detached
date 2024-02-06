@@ -1,0 +1,32 @@
+{
+	title: "Tier 5: Lead",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "lead"
+		}
+	},
+	x: -7.0d,
+	y: -2.0d,
+	dependencies: [
+		"ef7dfa3f"
+	],
+	tasks: [{
+		uid: "56eadcad",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 3"
+		}],
+		count: 4L
+	},
+	{
+		uid: "ae7dc456",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "lead"
+			}
+		}]
+	}]
+}

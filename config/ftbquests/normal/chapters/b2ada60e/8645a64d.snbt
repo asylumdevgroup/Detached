@@ -1,0 +1,17 @@
+{
+	title: "Finally a Vanilla Chest!",
+	icon: "minecraft:chest",
+	x: -10.0d,
+	y: -1.0d,
+	dependencies: [
+		"fb5eb0a2",
+		"0f2c70b1"
+	],
+	tasks: [{
+		uid: "0ef69c65",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}]
+}

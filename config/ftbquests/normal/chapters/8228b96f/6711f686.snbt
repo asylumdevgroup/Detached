@@ -1,0 +1,16 @@
+{
+	title: "Hot Air From (Hot) Lava",
+	icon: "prodigytech:magmatic_aeroheater",
+	x: -1.5d,
+	y: 3.5d,
+	dependencies: [
+		"c5cede14"
+	],
+	tasks: [{
+		uid: "a0eef2b9",
+		type: "item",
+		items: [{
+			item: "prodigytech:magmatic_aeroheater"
+		}]
+	}]
+}

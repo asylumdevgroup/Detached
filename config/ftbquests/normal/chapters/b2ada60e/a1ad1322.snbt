@@ -1,0 +1,23 @@
+{
+	title: "Growing Crops",
+	icon: "minecraft:wheat",
+	x: -5.0d,
+	y: -1.0d,
+	dependencies: [
+		"41ada742"
+	],
+	tasks: [{
+		uid: "555dface",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}]
+	},
+	{
+		uid: "cec8cb85",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 4"
+		}]
+	}]
+}

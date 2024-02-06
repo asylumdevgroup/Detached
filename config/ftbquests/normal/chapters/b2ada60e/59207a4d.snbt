@@ -1,0 +1,40 @@
+{
+	title: "Tier 7: Knightslime",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "knightslime"
+		}
+	},
+	x: -7.0d,
+	y: 0.0d,
+	dependencies: [
+		"081b17cc"
+	],
+	tasks: [{
+		uid: "f9bd0ac3",
+		type: "item",
+		items: [{
+			item: "tconstruct:edible 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "34bc1a69",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "0d574e63",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "knightslime"
+			}
+		}]
+	}]
+}

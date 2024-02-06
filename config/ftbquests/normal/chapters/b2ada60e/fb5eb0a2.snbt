@@ -1,0 +1,16 @@
+{
+	title: "A Bit More Storage!",
+	icon: "primalchests:primal_chest_advanced",
+	x: -10.0d,
+	y: -2.0d,
+	dependencies: [
+		"7b59cbed"
+	],
+	tasks: [{
+		uid: "df3beafa",
+		type: "item",
+		items: [{
+			item: "primalchests:primal_chest_advanced"
+		}]
+	}]
+}

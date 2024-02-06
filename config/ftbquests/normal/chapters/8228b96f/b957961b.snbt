@@ -1,0 +1,26 @@
+{
+	title: "Another Hammer?",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ic2:forge_hammer"
+	},
+	x: -1.5d,
+	y: 1.5d,
+	dependencies: [
+		"fde51459"
+	],
+	tasks: [{
+		uid: "c45d4fe8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ic2:forge_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

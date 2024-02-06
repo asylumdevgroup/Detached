@@ -1,0 +1,32 @@
+{
+	title: "Tier 1: Copper",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "copper"
+		}
+	},
+	x: -8.0d,
+	y: -3.0d,
+	dependencies: [
+		"8c7142ed"
+	],
+	tasks: [{
+		uid: "0bee5aed",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore"
+		}],
+		count: 4L
+	},
+	{
+		uid: "a74ce60a",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "copper"
+			}
+		}]
+	}]
+}

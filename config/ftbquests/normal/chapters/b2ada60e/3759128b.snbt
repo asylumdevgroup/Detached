@@ -1,0 +1,16 @@
+{
+	title: "Your First Artisan's Table!",
+	icon: "artisanworktables:workstation 1 5",
+	x: -4.0d,
+	y: -5.0d,
+	dependencies: [
+		"72c02d63"
+	],
+	tasks: [{
+		uid: "215302b5",
+		type: "item",
+		items: [{
+			item: "artisanworktables:workstation 1 5"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "The First Tech Mod",
+	icon: "prodigytech:ferramic_ingot",
+	x: -1.5d,
+	y: 0.5d,
+	dependencies: [
+		"cfcd3617"
+	],
+	tasks: [{
+		uid: "0f63a932",
+		type: "checkmark"
+	},
+	{
+		uid: "65e6c046",
+		type: "item",
+		items: [{
+			item: "prodigytech:ferramic_ingot"
+		}],
+		count: 16L
+	}]
+}

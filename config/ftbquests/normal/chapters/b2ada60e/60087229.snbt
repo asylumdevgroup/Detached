@@ -1,0 +1,35 @@
+{
+	title: "Tier 0: Flint",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "flint"
+		}
+	},
+	x: -9.0d,
+	y: 0.0d,
+	dependencies: [
+		"1650c727"
+	],
+	tasks: [{
+		uid: "7fa7ea05",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ad331086",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "flint"
+			}
+		},
+		count: 4
+	}]
+}

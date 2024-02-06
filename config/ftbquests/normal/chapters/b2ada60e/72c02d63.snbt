@@ -1,0 +1,32 @@
+{
+	title: "Tier 11: Manyullyn",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "manyullyn"
+		}
+	},
+	x: -5.0d,
+	y: -5.0d,
+	dependencies: [
+		"5bca4da8"
+	],
+	tasks: [{
+		uid: "c2d52817",
+		type: "item",
+		items: [{
+			item: "tconstruct:ore 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a2a98d7a",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "manyullyn"
+			}
+		}]
+	}]
+}

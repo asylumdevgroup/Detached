@@ -1,0 +1,33 @@
+{
+	title: "Stygian Iron",
+	icon: "woot:stygianironingot",
+	x: -4.0d,
+	y: -1.0d,
+	dependencies: [
+		"166f86b8"
+	],
+	tasks: [{
+		uid: "40267ce3",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:soulstone"
+		}],
+		count: 8L
+	},
+	{
+		uid: "31b96a94",
+		type: "item",
+		items: [{
+			item: "woot:stygianironore"
+		}],
+		count: 4L
+	},
+	{
+		uid: "6650be65",
+		type: "item",
+		items: [{
+			item: "woot:stygianironingot"
+		}],
+		count: 4L
+	}]
+}

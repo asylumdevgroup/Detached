@@ -1,0 +1,24 @@
+{
+	title: "Tier 2: Certus Quartz",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "certusquartz_plustic"
+		}
+	},
+	x: -8.0d,
+	y: -4.0d,
+	dependencies: [
+		"0f2c70b1"
+	],
+	tasks: [{
+		uid: "a6be0a0a",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "certusquartz_plustic"
+			}
+		}]
+	}]
+}

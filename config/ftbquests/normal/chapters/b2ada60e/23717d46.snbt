@@ -1,0 +1,55 @@
+{
+	title: "Kiln",
+	icon: "primal_tech:clay_kiln",
+	x: -8.0d,
+	y: 0.0d,
+	dependencies: [
+		"60087229"
+	],
+	tasks: [{
+		uid: "73c3a6bf",
+		type: "item",
+		items: [{
+			item: "primal_tech:clay_kiln"
+		}]
+	},
+	{
+		uid: "4d9ea67a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal_tech:fire_sticks"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "89d6edec",
+		type: "item",
+		items: [{
+			item: "primal_tech:flint_block"
+		}]
+	},
+	{
+		uid: "17f57314",
+		type: "item",
+		items: [{
+			item: "primal_tech:charcoal_block"
+		}]
+	}],
+	rewards: [{
+		uid: "a7d908b7",
+		type: "item",
+		item: "primal_tech:charcoal_block",
+		count: 4
+	},
+	{
+		uid: "de51894a",
+		type: "item",
+		item: "minecraft:cooked_porkchop",
+		count: 8
+	}]
+}

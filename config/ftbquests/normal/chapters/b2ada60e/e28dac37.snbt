@@ -1,0 +1,22 @@
+{
+	x: -9.0d,
+	y: -5.0d,
+	description: "Welcome, player, to this new world! Before starting, you should know that tool levels have been overhauled. Also, punching trees is disabled.",
+	tasks: [{
+		uid: "0e74a56e",
+		type: "checkmark",
+		title: "Introduction"
+	}],
+	rewards: [{
+		uid: "891cd65c",
+		type: "item",
+		item: "minecraft:torch",
+		count: 16
+	},
+	{
+		uid: "d9262f46",
+		type: "item",
+		item: "rustic:wildberries",
+		count: 8
+	}]
+}

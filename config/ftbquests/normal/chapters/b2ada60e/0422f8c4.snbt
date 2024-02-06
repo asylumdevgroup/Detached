@@ -1,0 +1,32 @@
+{
+	title: "Tier 8: Invar",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "invar"
+		}
+	},
+	x: -6.0d,
+	y: 0.0d,
+	dependencies: [
+		"59207a4d"
+	],
+	tasks: [{
+		uid: "48e05c0d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 5"
+		}],
+		count: 2L
+	},
+	{
+		uid: "a95c9b24",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "invar"
+			}
+		}]
+	}]
+}

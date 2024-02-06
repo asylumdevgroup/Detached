@@ -1,0 +1,25 @@
+{
+	title: "Special Alloys",
+	icon: "tp:quartz_ingot",
+	x: -4.0d,
+	y: -3.0d,
+	dependencies: [
+		"e9ce45eb"
+	],
+	tasks: [{
+		uid: "a5990a00",
+		type: "item",
+		items: [{
+			item: "tp:quartz_ingot"
+		}],
+		count: 4L
+	},
+	{
+		uid: "0cbdfb48",
+		type: "item",
+		items: [{
+			item: "tp:redstone_ingot"
+		}],
+		count: 4L
+	}]
+}

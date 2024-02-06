@@ -68,6 +68,47 @@ recipes.addShaped("unfired_channel", <ceramics:unfired_clay:7>,
  [[<ceramics:unfired_clay:4>,null,<ceramics:unfired_clay:4>],
   [<ceramics:unfired_clay:4>,null,<ceramics:unfired_clay:4>],
   [<ceramics:unfired_clay:4>,<ceramics:unfired_clay:4>,<ceramics:unfired_clay:4>]]);
+  
+//Smeltery Controller
+recipes.remove(<tconstruct:smeltery_controller>);
+recipes.addShaped("smeltery_controller", <tconstruct:smeltery_controller>,
+ [[<tconstruct:seared:3>,<tconstruct:materials>,<tconstruct:seared:3>],
+  [<tconstruct:materials>,<primal_tech:flint_block>,<tconstruct:materials>],
+  [<tconstruct:seared:3>,<tconstruct:materials>,<tconstruct:seared:3>]]);
+
+//Seared Tank
+recipes.remove(<tconstruct:seared_tank>);
+recipes.addShaped("seared_tank", <tconstruct:seared_tank>,
+ [[<tconstruct:seared:3>,<tconstruct:materials>,<tconstruct:seared:3>],
+  [<tconstruct:materials>,<tconstruct:seared_tank:1>,<tconstruct:materials>],
+  [<tconstruct:seared:3>,<tconstruct:materials>,<tconstruct:seared:3>]]);
+
+//Casting Table
+recipes.remove(<tconstruct:casting>);
+recipes.addShaped("casting_table", <tconstruct:casting>,
+ [[<tconstruct:seared:3>,<tconstruct:seared>,<tconstruct:seared:3>],
+  [<tconstruct:materials>,<tconstruct:seared:3>,<tconstruct:materials>],
+  [<tconstruct:materials>,null,<tconstruct:materials>]]);
+
+//Casting Basin
+recipes.remove(<tconstruct:casting:1>);
+recipes.addShaped("casting_basin", <tconstruct:casting:1>,
+ [[<tconstruct:materials>,null,<tconstruct:materials>],
+  [<tconstruct:materials>,null,<tconstruct:materials>],
+  [<tconstruct:seared:3>,<tconstruct:materials>,<tconstruct:seared:3>]]);
+
+//Seared Faucet
+recipes.remove(<tconstruct:faucet>);
+recipes.addShaped("seared_faucet", <tconstruct:faucet>,
+ [[<tconstruct:materials>,null,<tconstruct:materials>],
+  [<tconstruct:materials>,<tconstruct:materials>,<tconstruct:materials>]]);
+
+//Seared Channel
+recipes.remove(<tconstruct:channel>);
+recipes.addShaped("seared_channel", <tconstruct:channel> * 3,
+ [[<tconstruct:materials>,null,<tconstruct:materials>],
+  [<tconstruct:materials>,null,<tconstruct:materials>],
+  [<tconstruct:materials>,<tconstruct:materials>,<tconstruct:materials>]]);
 
 //Knightslime Alloying Requires Silver
 mods.tconstruct.Alloy.removeRecipe(<liquid:knightslime>);

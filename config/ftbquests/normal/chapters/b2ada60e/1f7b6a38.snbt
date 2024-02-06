@@ -1,0 +1,66 @@
+{
+	title: "Chopping Trees Properly!",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "flintmod:axe_flint"
+	},
+	x: -9.0d,
+	y: -4.0d,
+	text: [
+		"As you go to punch a tree, you notice an unusual pain in your hands, realizing that punching trees does not work in this new world. So, grab some gravel to make flint and break leaves to get sticks, and make an axe!!"
+	],
+	dependencies: [
+		"e28dac37"
+	],
+	tasks: [{
+		uid: "725667c3",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 3L
+	},
+	{
+		uid: "66edaa01",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "flintmod:axe_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "16a7b9a5",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		},
+		{
+			item: "minecraft:log 1 1"
+		},
+		{
+			item: "minecraft:log 1 2"
+		},
+		{
+			item: "minecraft:log 1 3"
+		},
+		{
+			item: "minecraft:log2 1 1"
+		},
+		{
+			item: "minecraft:log2"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "6036e61f",
+		type: "item",
+		item: "minecraft:apple",
+		count: 16
+	}]
+}

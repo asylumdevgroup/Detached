@@ -1,0 +1,32 @@
+{
+	title: "Tier 3: Iron",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "iron"
+		}
+	},
+	x: -7.0d,
+	y: -4.0d,
+	dependencies: [
+		"ac15648d"
+	],
+	tasks: [{
+		uid: "19569290",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}],
+		count: 4L
+	},
+	{
+		uid: "f5f1ce14",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	}]
+}

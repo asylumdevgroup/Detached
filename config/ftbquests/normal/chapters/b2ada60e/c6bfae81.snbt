@@ -1,0 +1,59 @@
+{
+	title: "Other Flint Tools",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "flintmod:pickaxe_flint"
+	},
+	x: -9.0d,
+	y: -3.0d,
+	text: [
+		"Your flint axe is working well, but only on wooden materials. Then again, who mines stone with an axe? Go ahead and make a flint pickaxe, shovel, and knife!"
+	],
+	dependencies: [
+		"1f7b6a38"
+	],
+	tasks: [{
+		uid: "1d307660",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "flintmod:pickaxe_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ba1c308b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "flintmod:spade_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "12cb0266",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "flintmod:knife_flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "48a39f5e",
+		type: "item",
+		item: "minecraft:bread",
+		count: 8
+	}]
+}

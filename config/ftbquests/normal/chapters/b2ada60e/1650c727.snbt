@@ -1,0 +1,80 @@
+{
+	title: "Patterns",
+	icon: {
+		id: "tconstruct:pattern",
+		tag: {
+			PartType: "tconstruct:pick_head"
+		}
+	},
+	x: -9.0d,
+	y: -1.0d,
+	dependencies: [
+		"b91b4639"
+	],
+	tasks: [{
+		uid: "ddcbceb7",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	},
+	{
+		uid: "d998c01d",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:axe_head"
+			}
+		}]
+	},
+	{
+		uid: "003c617c",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:shovel_head"
+			}
+		}]
+	},
+	{
+		uid: "912922b8",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "c038abbb",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "04eda4a1",
+		type: "item",
+		item: {
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:sharpening_kit"
+			}
+		}
+	},
+	{
+		uid: "cc74b1fa",
+		type: "item",
+		item: "minecraft:cooked_chicken",
+		count: 8
+	}]
+}

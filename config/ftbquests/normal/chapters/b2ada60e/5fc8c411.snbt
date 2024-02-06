@@ -1,0 +1,28 @@
+{
+	title: "Coke Oven",
+	icon: "immersiveengineering:stone_decoration",
+	x: -6.0d,
+	y: -5.0d,
+	dependencies: [
+		"ac15648d"
+	],
+	tasks: [{
+		uid: "c76b4210",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4c807679",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}]
+}

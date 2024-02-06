@@ -1,0 +1,17 @@
+{
+	title: "Making Better Alloys",
+	icon: "immersiveengineering:stone_decoration 1 10",
+	x: -4.0d,
+	y: -4.0d,
+	dependencies: [
+		"3759128b"
+	],
+	tasks: [{
+		uid: "7cac6c63",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}],
+		count: 8L
+	}]
+}

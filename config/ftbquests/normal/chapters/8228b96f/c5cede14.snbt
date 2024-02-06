@@ -1,0 +1,16 @@
+{
+	title: "Ferramic Casing",
+	icon: "contenttweaker:ferramic_casing",
+	x: -1.5d,
+	y: 2.5d,
+	dependencies: [
+		"b957961b"
+	],
+	tasks: [{
+		uid: "5afbe486",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ferramic_casing"
+		}]
+	}]
+}

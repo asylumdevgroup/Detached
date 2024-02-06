@@ -1,0 +1,32 @@
+{
+	title: "Tier 9: Alumite",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "alumite"
+		}
+	},
+	x: -6.0d,
+	y: -1.0d,
+	dependencies: [
+		"0422f8c4"
+	],
+	tasks: [{
+		uid: "7b77608a",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 2L
+	},
+	{
+		uid: "552a324f",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "alumite"
+			}
+		}]
+	}]
+}

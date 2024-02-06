@@ -1,0 +1,44 @@
+{
+	title: "Gathering Crops",
+	icon: "minecraft:wheat_seeds",
+	x: -5.0d,
+	y: -2.0d,
+	dependencies: [
+		"e28dac37"
+	],
+	tasks: [{
+		uid: "2dd2603b",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	},
+	{
+		uid: "e3e48536",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_rice_seed"
+		}]
+	},
+	{
+		uid: "0b5f8af8",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_flax_seed"
+		}]
+	},
+	{
+		uid: "4abf233f",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_coffee_seed"
+		}]
+	},
+	{
+		uid: "be0184e9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:seed"
+		}]
+	}]
+}

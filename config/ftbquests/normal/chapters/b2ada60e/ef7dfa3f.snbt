@@ -1,0 +1,32 @@
+{
+	title: "Tier 4: Bronze",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "bronze"
+		}
+	},
+	x: -7.0d,
+	y: -3.0d,
+	dependencies: [
+		"06e94aa4"
+	],
+	tasks: [{
+		uid: "2a8bc6c3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "e46618a7",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "bronze"
+			}
+		}]
+	}]
+}

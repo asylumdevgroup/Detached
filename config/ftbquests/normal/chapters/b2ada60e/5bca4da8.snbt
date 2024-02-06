@@ -1,0 +1,31 @@
+{
+	title: "Tier 10: Cobalt",
+	icon: {
+		id: "tconstruct:sharpening_kit",
+		tag: {
+			Material: "cobalt"
+		}
+	},
+	x: -5.0d,
+	y: -4.0d,
+	dependencies: [
+		"4b9ff597"
+	],
+	tasks: [{
+		uid: "5fc73c5d",
+		type: "item",
+		items: [{
+			item: "tconstruct:ore"
+		}]
+	},
+	{
+		uid: "b2542d62",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "cobalt"
+			}
+		}]
+	}]
+}

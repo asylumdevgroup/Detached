@@ -1,0 +1,16 @@
+{
+	title: "First Tech!",
+	icon: "prodigytech:explosion_furnace",
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"c416a337"
+	],
+	tasks: [{
+		uid: "8ef21c48",
+		type: "item",
+		items: [{
+			item: "prodigytech:explosion_furnace"
+		}]
+	}]
+}
